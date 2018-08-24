@@ -4419,6 +4419,7 @@
 		max-width:100%; 
 	}
 	.post_page_title_img a{
+		opacity: .8;
 		position:absolute;
 		text-shadow:6px 5px 10px #000;
 		padding-top: 20%;
