@@ -62,7 +62,20 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/util.js"></script>
     <script src="/js/main.js"></script>
-	
+	<script type="text/javascript">
+        $(document).ready(function(){
+             $.getJSON('json-post/test.json',function(post){
+                 var $jsontip=$("#jsonTip");
+                 var strHtml="123";
+                 $json.empty();
+                 $.each(post,function(infoIndex,info){
+                     strHtml += "標題：" +info["title"]+"<br>";
+                     strHtml += "時間：" +info["uploadtime"]+"<br>";
+                     strHtml += "工具：" +info["tool"]+"<br>";
+                 })
+             })
+         })
+     </script>
 </head>
     
 		<body class="is-loading">
@@ -159,20 +172,7 @@
         <div id="main" style="background-color: transparent; padding:0;">
         <section class="link_container" style="margin-top: 0; background-color: transparent; ">
             <div class="link_row">
-            <script type="text/javascript">
-               $(document).ready(function(){
-                    $.getJSON('json-post/test.json',function(post){
-                        var $jsontip=$("#jsonTip");
-                        var strHtml="123";
-                        $json.empty();
-                        $.each(post,function(infoIndex,info){
-                            strHtml += "標題：" +info["title"]+"<br>";
-                            strHtml += "時間：" +info["uploadtime"]+"<br>";
-                            strHtml += "工具：" +info["tool"]+"<br>";
-                        })
-                    })
-                })
-            </script>
+            
             <div id="jsonTip">
             </div>
                 <!-- 文章sample  s-->
