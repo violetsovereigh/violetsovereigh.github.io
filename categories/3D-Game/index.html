@@ -66,7 +66,7 @@
 	<script type="text/javascript">
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
-                 var $jsontip=$("#link_row");
+                 var $jsontip=$(".link_row");
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
