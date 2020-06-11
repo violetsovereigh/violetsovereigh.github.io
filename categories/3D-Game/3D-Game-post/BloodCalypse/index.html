@@ -66,7 +66,7 @@
 	<script type="text/javascript">
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
-                 var $jsontip=$(".main");
+                 var $jsontip=$(".post");
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
@@ -77,6 +77,7 @@
                     strHtml+='<p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793451/samples/game/BloodCalypse/source.png" alt=""></p>';
                     strHtml+='<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>';
                     strHtml+='<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>Once upon a time, a profession called whalecatcher hold a zither which is make out of whale bone.<br> sound of the zither is similar to whale sound, and whale will be attracted by the deep cry. </p>';
+                    strHtml+='</div>';
                  })
                  $jsontip.html(strHtml);
              })
@@ -175,9 +176,8 @@
         <div id="main" >
             
             <!-- Post -->
-            
+            <div id="post"></div>
 
-            </div>
 
             <!-- Post Comments -->
             
