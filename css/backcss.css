@@ -2,7 +2,8 @@
 
 /*homepage backgroud  css */
 	body.homepage {
-	    background-color: #120d21;
+		background-color: #120d21;
+		background-image: url("https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png");
 	    margin: 0px;
 	}
 	@keyframes copycat {
