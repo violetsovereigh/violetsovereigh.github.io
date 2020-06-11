@@ -62,18 +62,29 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/util.js"></script>
     <script src="/js/main.js"></script>
-    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript">
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
                  var $jsontip=$("#jsonTip");
                  var strHtml="123";
-                 $json.empty();
+                 $jsontip.empty();
                  $.each(post,function(infoIndex,info){
-                     strHtml += "標題：" +info["title"]+"<br>";
-                     strHtml += "時間：" +info["uploadtime"]+"<br>";
-                     strHtml += "工具：" +info["tool"]+"<br>";
-                     strHtml += "<hr>";
+                     strHtml += '<a href="/test/"><div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
+                    strHtml +=  '<h2 class="page_title_text">' +info["title"]+'</h2>';
+                    strHtml += '</div>';
+                    strHtml +='</a>';
+                    strHtml +='<div class="home-post-info">';
+                    strHtml +='<div class="home-post-info-author-avatar">';
+                    strHtml +='<h6><span class="home-post-info-data">'+info["uploadtime"]+'</span></h6>';
+                    strHtml += '<div class="home-post-info-Category">';
+                    strHtml +='<span>';
+                    strHtml +='<h6>';
+                    strHtml +='<a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">';
+                    strHtml +='<a class="post_category-link" href="/categories/3D-Game/">3D Game</a>';
+                    strHtml += '</a>';
+                    strHtml += '</h6>';
+                    strHtml += '</span>';
                  })
                  $jsontip.html(strHtml);
              })
@@ -175,31 +186,13 @@
         <div id="main" style="background-color: transparent; padding:0;">
         <section class="link_container" style="margin-top: 0; background-color: transparent; ">
             <div class="link_row">
-            
-            <div id="jsonTip">
             </div>
                 <!-- 文章sample  s-->
                 <div class="6u 12u(narrower)">
                     <section class="link_box special">
-                       <a href="/test/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> Animal Escape </h2>
-                            <!--段落-->
+                    <div id="jsonTip">
+                       
                         </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2019-02-09</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/3D-Game/">3D Game</a></a>
-                            </h6>
-                        </span>
                                 </div>
                             </div>
                         </div>
