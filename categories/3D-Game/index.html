@@ -159,6 +159,20 @@
         <div id="main" style="background-color: transparent; padding:0;">
         <section class="link_container" style="margin-top: 0; background-color: transparent; ">
             <div class="link_row">
+            <script type="text/javascript">
+               $(document).ready(function(){
+                    $.getJSON('json-post/test.json',function(post){
+                        var $jsontip=$("#jsonTip");
+                        var strHtml="123";
+                        $json.empty();
+                        $.each(post,function(infoIndex,info){
+                            strHtml += "標題：" +info["title"]+"<br>";
+                            strHtml += "時間：" +info["uploadtime"]+"<br>";
+                            strHtml += "工具：" +info["tool"]+"<br>";
+                        })
+                    })
+                })
+            </script>
                 <!-- 文章sample  s-->
                 <div class="6u 12u(narrower)">
                     <section class="link_box special">
