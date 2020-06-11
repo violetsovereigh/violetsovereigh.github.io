@@ -70,7 +70,9 @@
                  var strHtml="123";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
-                     strHtml += '<a href="/test/"><div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
+                    strHtml +='<div class="6u 12u(narrower)">';
+                    strHtml +='<section class="link_box special">';
+                    strHtml += '<a href="/test/"><div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
                     strHtml +=  '<h2 class="page_title_text">' +info["title"]+'</h2>';
                     strHtml += '</div>';
                     strHtml +='</a>';
@@ -85,6 +87,11 @@
                     strHtml += '</a>';
                     strHtml += '</h6>';
                     strHtml += '</span>';
+                    strHtml +='</div>';
+                    strHtml +='</div>';
+                    strHtml +='</div>';
+                    strHtml +='</section>';
+                    strHtml +='</div>';
                  })
                  $jsontip.html(strHtml);
              })
@@ -188,16 +195,11 @@
             <div class="link_row">
             </div>
                 <!-- 文章sample  s-->
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
+               
                     <div id="jsonTip">
                        
                         </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                                
                 <!-- 文章sample  e-->
                  <!-- 文章sample  s-->
                  <div class="6u 12u(narrower)">
