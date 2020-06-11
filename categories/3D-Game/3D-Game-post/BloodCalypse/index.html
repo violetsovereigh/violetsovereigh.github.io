@@ -66,13 +66,14 @@
 	<script type="text/javascript">
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
-                 var $jsontip=$(".post");
+                 var $jsontip=$("#main");
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
                     strHtml+='<div class ="post_page_title_img" style="height: 25rem;background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
                     strHtml+='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >The Whaling man</h2></a>';
                     strHtml+='</div>';
+
                     strHtml+='<div class="typo" style="padding: 3rem;">';
                     strHtml+='<p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793451/samples/game/BloodCalypse/source.png" alt=""></p>';
                     strHtml+='<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>';
@@ -176,7 +177,7 @@
         <div id="main" >
             
             <!-- Post -->
-            <div id="post"></div>
+          
 
 
             <!-- Post Comments -->
