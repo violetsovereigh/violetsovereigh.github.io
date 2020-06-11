@@ -67,19 +67,23 @@
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
                  var $jsontip=$("#jsonTip");
-                 var strHtml="123";
+                 var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
                     strHtml +='<div class="6u 12u(narrower)">';
                     strHtml +='<section class="link_box special">';
-                    strHtml += '<a href="/test/"><div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
-                    strHtml +=  '<h2 class="page_title_text">' +info["title"]+'</h2>';
+
+                    strHtml += '<a href="/test/">';
+                    strHtml +='<div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
+                    strHtml += '<h2 class="page_title_text">' +info["title"]+'</h2>';
                     strHtml += '</div>';
                     strHtml +='</a>';
+
                     strHtml +='<div class="home-post-info">';
                     strHtml +='<div class="home-post-info-author-avatar">';
                     strHtml +='<h6><span class="home-post-info-data">'+info["uploadtime"]+'</span></h6>';
                     strHtml += '<div class="home-post-info-Category">';
+
                     strHtml +='<span>';
                     strHtml +='<h6>';
                     strHtml +='<a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">';
@@ -87,9 +91,11 @@
                     strHtml += '</a>';
                     strHtml += '</h6>';
                     strHtml += '</span>';
+
                     strHtml +='</div>';
                     strHtml +='</div>';
                     strHtml +='</div>';
+
                     strHtml +='</section>';
                     strHtml +='</div>';
                  })
@@ -201,34 +207,7 @@
                         </div>
                                 
                 <!-- 文章sample  e-->
-                 <!-- 文章sample  s-->
-                 <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/3D-Game-post/BloodCalypse/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> BloodCalypse </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2020-06-10</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/3D-Game/">3D Game</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
+                
             </div>
         </section>
         </div>
