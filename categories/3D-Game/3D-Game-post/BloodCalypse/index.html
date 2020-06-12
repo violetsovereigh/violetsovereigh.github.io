@@ -66,13 +66,22 @@
 	<script type="text/javascript">
         $(document).ready(function(){
              $.getJSON('json-post/text.json',function(post){
-                 var $jsontip=$("#post-title");
+                 var $jsontip=$("#main");
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
                     strHtml +='<div class ="post_page_title_img" style="height: 25rem;background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
                     strHtml +='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >The Whaling man</h2></a>';
                     strHtml +='</div>';
+                    strHtml +='<div class="typo" style="padding: 3rem;">';
+                    strHtml +='<p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg" alt=""></p>';
+                    strHtml +='<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>';
+                    strHtml +='<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>Once upon a time, a profession called whalecatcher hold a zither which is make out of whale bone.<br> sound of the zither is similar to whale sound, and whale will be attracted by the deep cry. </p>';
+                    strHtml +='</div>';
+                    strHtml +='<div id="disqus-comment">';
+                    strHtml +='<div id="disqus_thread"></div>';
+                    strHtml +='<div class="btn_click_load" id="disqus_bt">';
+                    strHtml +='<button class="disqus_click_btn">View comments</button>';
                  })
                  $jsontip.html(strHtml);
              })
@@ -169,23 +178,9 @@
 </nav>
 
         <div id="main" >
-            <div id="post-title">
-                
-            </div>
-            <!-- Post -->
-            <div class="typo" style="padding: 3rem;">
-              
-                <p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg" alt=""></p>
-<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>
-<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>Once upon a time, a profession called whalecatcher hold a zither which is make out of whale bone.<br> sound of the zither is similar to whale sound, and whale will be attracted by the deep cry. </p>
-
-            </div>
-
-            <!-- Post Comments -->
             
-    <!-- 使用 DISQUS_CLICK -->
-<div id="disqus-comment">
-    <div id="disqus_thread"></div>
+            <!-- Post -->
+            
 
 <!-- add animation -->
 <style>
@@ -217,8 +212,7 @@
         }
 </style>
 	
-<div class="btn_click_load" id="disqus_bt"> 
-    <button class="disqus_click_btn">View comments</button>
+
 </div>
 
 <!--
