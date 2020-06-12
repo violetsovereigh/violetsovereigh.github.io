@@ -1,15 +1,19 @@
 [
     {
         "title":"BloodCalypse",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png",
         "uploadtime":"2020/06/10",
        
         "tool":"Blender",
-        "designconcept":"BloodCalypsecontent",
+        "designconcept":"高科技戰爭後的汙染世界，魔性覺醒的人類成為厄血者或轉化失敗的怪物 –魇， 吸血的慾望換來強大的血液魔法，沒有覺醒的人類則組成獵人組織與之抗衡。厄血者Karol為了對殺害他人類父母的仇人復仇，研究生5人小團隊為了在畢業前完成的想做潛行遊戲的夢想，規劃出的世界， 特色是使用血液進行瞬移、隱匿、攻擊等動作，希望使戰鬥變得更有計畫性。。我 的工作在於設計製作人物與場景、綁定骨架、繪至製UI，目前已完成主角、低 階獵人、魇、貧民窟、工廠等涵蓋第一關的範圍。 ",
         "pass":"true"
     },
     {
         "title":"Slime",
         "uploadtime":"2020/06/10",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png",
        
         "tool":"釋出",
         "designconcept":"高科技戰爭後的汙染世界，魔性覺醒的人類成為厄血者或轉化失敗的怪物 –魇， 吸血的慾望換來強大的血液魔法，沒有覺醒的人類則組成獵人組織與之抗衡。厄血者Karol為了對殺害他人類父母的仇人復仇，研究生5人小團隊為了在畢業前完成的想做潛行遊戲的夢想，規劃出的世界， 特色是使用血液進行瞬移、隱匿、攻擊等動作，希望使戰鬥變得更有計畫性。。我 的工作在於設計製作人物與場景、綁定骨架、繪至製UI，目前已完成主角、低 階獵人、魇、貧民窟、工廠等涵蓋第一關的範圍。 ",
