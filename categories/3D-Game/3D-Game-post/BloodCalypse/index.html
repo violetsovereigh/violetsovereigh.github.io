@@ -70,7 +70,7 @@
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
-                    strHtml +='<div class ="post_page_title_img" style="height: 25rem;background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
+                    strHtml +='<div class ="post_page_title_img" style="height: 25rem;background-image: url('+info["banner"]+');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
                     strHtml +='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >The Whaling man</h2></a>';
                     strHtml +='</div>';
                     strHtml +='<div class="typo" style="padding: 3rem;">';
