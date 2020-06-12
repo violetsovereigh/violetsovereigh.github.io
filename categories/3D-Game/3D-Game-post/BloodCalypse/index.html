@@ -62,28 +62,6 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/util.js"></script>
     <script src="/js/main.js"></script>
-    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript">
-        $(document).ready(function(){
-             $.getJSON('json-post/text.json',function(post){
-                 var $jsontip=$(".postcontent");
-                 var strHtml="";
-                 $jsontip.empty();
-                 $.each(post,function(infoIndex,info){
-                    strHtml+='<div class ="post_page_title_img" style="height: 25rem;background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
-                    strHtml+='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >The Whaling man</h2></a>';
-                    strHtml+='</div>';
-
-                    strHtml+='<div class="typo" style="padding: 3rem;">';
-                    strHtml+='<p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793451/samples/game/BloodCalypse/source.png" alt=""></p>';
-                    strHtml+='<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>';
-                    strHtml+='<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>Once upon a time, a profession called whalecatcher hold a zither which is make out of whale bone.<br> sound of the zither is similar to whale sound, and whale will be attracted by the deep cry. </p>';
-                    strHtml+='</div>';
-                 })
-                 $jsontip.html(strHtml);
-             })
-         })
-     </script>
 	
 </head>
     
@@ -175,10 +153,16 @@
 </nav>
 
         <div id="main" >
-            
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >The Whaling man</h2></a>
+            </div>
             <!-- Post -->
-            <div class="postcontent"></div>
+            <div class="typo" style="padding: 3rem;">
+                <p><img src="https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg" alt=""></p>
+<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>  Adobe Photoshop </p>
+<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>Once upon a time, a profession called whalecatcher hold a zither which is make out of whale bone.<br> sound of the zither is similar to whale sound, and whale will be attracted by the deep cry. </p>
 
+            </div>
 
             <!-- Post Comments -->
             
