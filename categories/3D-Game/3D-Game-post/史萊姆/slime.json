@@ -3,7 +3,12 @@
         "title":"史萊姆",
         "uploadtime":"2020/06/10",
         "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591970903/samples/game/Slime/banner.jpg",
-        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591972239/samples/game/Slime/slime-poster.jpg",
+        "video01":"https://www.youtube.com/embed/T65C4ZYhJa8",
+        "video02":"https://www.youtube.com/embed/KbX2roxl66w",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime01.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029189/samples/game/Slime/slime03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime04.jpg",
        
         "tool":"Photoshop, Blender, Unity",
         "designconcept":"從古老時代至今，史萊姆與哥布林一直是死對頭，他們從未放棄過入侵史萊姆村 莊，不惜飄洋過海也要佔領這個豐饒大地。睿智的巫醫挑選出4名史萊姆戰士， 誓死捍衛家園！研究生5人小團隊為期末展製作的小型合作遊戲，以混和顏色為主軸，打擊相 應顏色的哥布林，希望玩家能在遊玩過程相互溝通，操作混色史萊姆一人發射子 彈一人移動，擊敗敵人。我在團隊中負責概念美術、角色設計、場景渲染、部分 3D物件與UI設計。",
