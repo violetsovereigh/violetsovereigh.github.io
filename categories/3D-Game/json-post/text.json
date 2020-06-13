@@ -58,20 +58,6 @@
         "pass":"true"
     },
     {
-        "title":"武器革命",
-        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592057143/samples/game/weapon/Weapolution%E6%AD%A6%E5%99%A8%E9%9D%A9%E5%91%BD_%E6%B5%B7%E5%A0%B12.jpg",
-        "video01":"https://www.youtube.com/embed/XXY8V1JxZMo",
-        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029701/samples/game/weapon/weapon02.jpg",
-        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029699/samples/game/weapon/weapon01.jpg",
-        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029701/samples/game/weapon/character.png",
-        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029704/samples/game/weapon/%E6%9C%AA%E5%91%BD%E5%90%8D-1.png",
-        "uploadtime":"2020/06/10",
-       
-        "tool":"Photoshop, After Effect, Unity",
-        "designconcept":"為了獲得未來時代最新進的武器，Buda、Haka兩人決定進入武器革命書，走過武器發明的歷史，去找到武器帶回未來。兩人相隔兩地，一人負責戰鬥，一人製作武器拋入。武器革命的誕生是由於我們希望能讓合作遊戲實現真正的各司其職，每個武器的誕生都由於時代的動亂，遊戲中將分為遠古時期、中古世紀等依據時代演變，武器的製作也隨之改變，從木棒石斧到火槍大砲。在遊戲中我負責所有美術設定、關卡設計與Boss動畫。",
-        "pass":"true"
-    },
-    {
         "title":"帶源者",
         "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029978/samples/game/greenpower/cover.png",
         "video01":"https://www.youtube.com/embed/GQqR20evXJc",
@@ -83,6 +69,20 @@
        
         "tool":"Photoshop, After Effect",
         "designconcept":"如何選擇最佳的能源廠建廠場所呢?依照你的手牌讓你的布局贏到最後!以德州撲克的玩法結合圖板，將綠色環保觀念融入競爭遊戲中，探討如何平衡綠能與收益，建造美麗的綠能城市。現實中對能源廠的限制為規則，如：地熱廠需建在火山區，風力廠需建在洋流區，核電廠建設會造成居民抗議而需執骰決定是否關廠，而關廠造成的廢料污染在當局無法復原，也無法再蓋廠，火力廠需離民宅一段距離...等等。在遊戲中我負責繪製圖版與卡片並參與企劃。",
+        "pass":"true"
+    },
+    {
+        "title":"動物跑酷",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1535079842/samples/game/Running%20Animal/start_2.jpg",
+        "video01":"https://www.youtube.com/embed/CHfodxBhzIk",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029701/samples/game/weapon/weapon02.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1535079838/samples/game/Running%20Animal/catattack.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1535079837/samples/game/Running%20Animal/crash.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1535079836/samples/game/Running%20Animal/buy.jpg",
+        "uploadtime":"2020/06/10",
+       
+        "tool":"Photoshop, After Effect, Unity",
+        "designconcept":"貓狗大戰爭!誰可以穿越重重障礙拔得頭籌呢?",
         "pass":"true"
     }
 ]
