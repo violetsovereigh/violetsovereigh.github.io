@@ -2,7 +2,10 @@
     {
         "title":"BloodCalypse",
         "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png",
-        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032332/samples/game/BloodCalypse/poster03.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032329/samples/game/BloodCalypse/blood02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032329/samples/game/BloodCalypse/blood03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032333/samples/game/BloodCalypse/blood04.jpg",
         "uploadtime":"2020/06/10",
        
         "tool":"Blender",
