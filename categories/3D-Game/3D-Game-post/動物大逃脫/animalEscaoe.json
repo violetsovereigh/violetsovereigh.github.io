@@ -1,0 +1,16 @@
+[
+    {
+        "title":"動物大逃脫",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029537/samples/game/Animal%20Escape/animal05.jpg",
+        "video01":"https://www.youtube.com/embed/0kOQbRlTWOo",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029537/samples/game/Animal%20Escape/animal01.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029535/samples/game/Animal%20Escape/animal02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029540/samples/game/Animal%20Escape/animal03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029541/samples/game/Animal%20Escape/animal04.jpg",
+        "uploadtime":"2020/06/10",
+       
+        "tool":"Maya, Photoshop, Unity",
+        "designconcept":"動物大逃脫是一款體驗動物視野的密室脫遊戲，動物各自擁有獨特的視界，色盲、近視、魚眼、動態視力等獨特感官，能幫助我們看見不同線索，努力逃離這裡吧!為VR黑克松大賽6人團隊所開發的小品遊戲，希望能帶領玩家體驗成為不同動物所看到的世界，找到各自的優勢，創作一款寓教於樂的小遊戲。我在團隊中負責關卡設計、3D物件建模、設置與動畫製作。",
+        "pass":"true"
+    }
+]

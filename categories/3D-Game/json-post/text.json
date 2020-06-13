@@ -2,13 +2,45 @@
     {
         "title":"厄血BloodCalypse",
         "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793447/samples/game/BloodCalypse/1.2.png",
-        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591793439/samples/game/BloodCalypse/1.7_sample5000.png",
-        "uploadtime":"2020/06/10"
+        "video01":"https://www.youtube.com/embed/Kgl99Kxi5PU",
+        "video02":"https://www.youtube.com/embed/1aNs4LuALTc",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032332/samples/game/BloodCalypse/poster03.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032329/samples/game/BloodCalypse/blood02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032329/samples/game/BloodCalypse/blood03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592032333/samples/game/BloodCalypse/blood04.jpg",
+        "uploadtime":"2020/06/10",
+       
+        "tool":"Blender",
+        "designconcept":"高科技戰爭後的汙染世界，魔性覺醒的人類成為厄血者或轉化失敗的怪物 –魇， 吸血的慾望換來強大的血液魔法，沒有覺醒的人類則組成獵人組織與之抗衡。厄血者Karol為了對殺害他人類父母的仇人復仇，研究生5人小團隊為了在畢業前完成的想做潛行遊戲的夢想，規劃出的世界， 特色是使用血液進行瞬移、隱匿、攻擊等動作，希望使戰鬥變得更有計畫性。。我 的工作在於設計製作人物與場景、綁定骨架、繪至製UI，目前已完成主角、低 階獵人、魇、貧民窟、工廠等涵蓋第一關的範圍。 ",
+        "pass":"true"
     },
     {
         "title":"史萊姆：混色戰役",
         "uploadtime":"2020/06/10",
         "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591970903/samples/game/Slime/banner.jpg",
-        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1591970900/samples/game/Slime/%E9%A1%8F%E6%96%99%E9%81%8A%E6%88%B2-%E6%B5%B7%E5%A0%B1.jpg"
+        "video01":"https://www.youtube.com/embed/T65C4ZYhJa8",
+        "video02":"https://www.youtube.com/embed/KbX2roxl66w",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime01.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029189/samples/game/Slime/slime03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029190/samples/game/Slime/slime04.jpg",
+       
+        "tool":"Photoshop, Blender, Unity",
+        "designconcept":"從古老時代至今，史萊姆與哥布林一直是死對頭，他們從未放棄過入侵史萊姆村 莊，不惜飄洋過海也要佔領這個豐饒大地。睿智的巫醫挑選出4名史萊姆戰士， 誓死捍衛家園！研究生5人小團隊為期末展製作的小型合作遊戲，以混和顏色為主軸，打擊相 應顏色的哥布林，希望玩家能在遊玩過程相互溝通，操作混色史萊姆一人發射子 彈一人移動，擊敗敵人。我在團隊中負責概念美術、角色設計、場景渲染、部分 3D物件與UI設計。",
+        "pass":"true"
+    },
+    {
+        "title":"動物大逃脫",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029537/samples/game/Animal%20Escape/animal05.jpg",
+        "video01":"https://www.youtube.com/embed/0kOQbRlTWOo",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029537/samples/game/Animal%20Escape/animal01.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029535/samples/game/Animal%20Escape/animal02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029540/samples/game/Animal%20Escape/animal03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592029541/samples/game/Animal%20Escape/animal04.jpg",
+        "uploadtime":"2020/06/10",
+       
+        "tool":"Maya, Photoshop, Unity",
+        "designconcept":"動物大逃脫是一款體驗動物視野的密室脫遊戲，動物各自擁有獨特的視界，色盲、近視、魚眼、動態視力等獨特感官，能幫助我們看見不同線索，努力逃離這裡吧!為VR黑克松大賽6人團隊所開發的小品遊戲，希望能帶領玩家體驗成為不同動物所看到的世界，找到各自的優勢，創作一款寓教於樂的小遊戲。我在團隊中負責關卡設計、3D物件建模、設置與動畫製作。",
+        "pass":"true"
     }
 ]
