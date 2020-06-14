@@ -65,22 +65,18 @@
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript">
         $(document).ready(function(){
-             $.getJSON('animalEscaoe.json',function(post){
+             $.getJSON('forest.json',function(post){
                  var $jsontip=$("#main");
                  var strHtml="";
                  $jsontip.empty();
                  $.each(post,function(infoIndex,info){
                     strHtml +='<div class ="post_page_title_img" style="height: 25rem;background-image: url('+info["banner"]+');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >';
-                    strHtml +='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 style="font-weight:bold;>'+info["title"]+'</h2></a>';
+                    strHtml +='<a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 style="font-weight:bold;">'+info["title"]+'</h2></a>';
                     strHtml +='</div>';
                     strHtml +='<div class="typo" style="padding: 3rem;">';
-                    strHtml +='<p><iframe width="100%" height="600" src="'+info["video01"]+'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>';
-                    strHtml +='<p><img src="'+info["image01"]+'" alt=""></p>';
+                    strHtml +='<p><img src="'+info["banner"]+'" alt=""></p>';
                     strHtml +='<h1 id="TOOL"><a href="#TOOL" class="headerlink" title="TOOL"></a>TOOL</h1><p>'+info["tool"]+' </p>';
                     strHtml +='<h1 id="Design-Concept"><a href="#Design-Concept" class="headerlink" title="Design Concept :"></a>Design Concept :</h1><p>'+info["designconcept"]+'</p>';
-                    strHtml +='<p><img src="'+info["image02"]+'" alt=""></p>';
-                    strHtml +='<p><img src="'+info["image03"]+'" alt=""></p>';
-                    strHtml +='<p><img src="'+info["image04"]+'" alt=""></p>';
                     strHtml +='</div>';
                     strHtml +='<div id="disqus-comment">';
                     strHtml +='<div id="disqus_thread"></div>';

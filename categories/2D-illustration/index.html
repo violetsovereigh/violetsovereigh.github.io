@@ -62,7 +62,47 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/util.js"></script>
     <script src="/js/main.js"></script>
-	
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+             $.getJSON('json-post/2dtext.json',function(post){
+                 var $jsontip=$(".link_row");
+                 var strHtml="";
+                 $jsontip.empty();
+                 $.each(post,function(infoIndex,info){
+                    strHtml +='<div class="6u 12u(narrower)">';
+                    strHtml +='<section class="link_box special">';
+
+                    strHtml += '<a href="2D-illustration-post/'+info["title"]+'/">';
+                    strHtml +='<div class="page_title" style="background-image: url('+info["banner"]+');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">';
+                    strHtml += '<h2 class="page_title_text" style="font-family:"Microsoft YaHei";">' +info["title"]+'</h2>';
+                    strHtml += '</div>';
+                    strHtml +='</a>';
+
+                    strHtml +='<div class="home-post-info">';
+                    strHtml +='<div class="home-post-info-author-avatar">';
+                    strHtml +='<h6><span class="home-post-info-data">'+info["uploadtime"]+'</span></h6>';
+                    strHtml += '<div class="home-post-info-Category">';
+
+                    strHtml +='<span>';
+                    strHtml +='<h6>';
+                    strHtml +='<a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">';
+                    strHtml +='<a class="post_category-link" href="/categories/2D-illustration/">2D-illustration</a>';
+                    strHtml += '</a>';
+                    strHtml += '</h6>';
+                    strHtml += '</span>';
+
+                    strHtml +='</div>';
+                    strHtml +='</div>';
+                    strHtml +='</div>';
+
+                    strHtml +='</section>';
+                    strHtml +='</div>';
+                 })
+                 $jsontip.html(strHtml);
+             })
+         })
+     </script>
 </head>
     
 		<body class="is-loading">
@@ -97,7 +137,7 @@
 	            <a href="#s1">Works</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="category-link" href="/categories/2D-illstration/">2D illstration</a></li><li><a class="category-link" href="/categories/3D-Design/">3D Design</a></li><li><a class="category-link" href="/categories/3D-Game/">3D Game</a>
+	                        <a class="category-link" href="/categories/2D-illustration/">2D-illustration</a></li><li><a class="category-link" href="/categories/3D-Game/">3D Game</a>
 	                    </ul>
 	        </li>
 	        
@@ -161,231 +201,9 @@
             <div class="link_row">
                 <!-- 文章sample  s-->
 
+                                
+                <!-- 文章sample  e-->
                 
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/iceCovered/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1535079353/samples/2D/%E5%85%AB%E6%9C%88%E5%A0%B4%E6%99%AF.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> Ice Covered </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-24</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/forest/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817397/samples/2D/02_1.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> forest </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-20</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/Geisha/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817391/samples/2D/ghost01.2.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> The Ghost of Geisha </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-20</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/whalingMan/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817388/samples/2D/whalingMan.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> The Whaling man </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-20</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/darkElf/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817386/samples/2D/darkElf.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> The Warrier of Dark Elf </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-20</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/elf/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817398/samples/2D/elf.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> Elf in Paradise </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-20</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/machine/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1534817392/samples/2D/05.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> The Heart of Machine </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-16</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/christmas/">
-                        <div class="page_title" style="background-image: url(https://res.cloudinary.com/violet-sovereigh/image/upload/v1535077744/samples/2D/%E8%82%96%E5%83%8F%E7%B7%B4%E7%BF%922.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> Lonely Chrismas </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-08-15</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/2D-illstration/">2D illstration</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
             </div>
         </section>
         </div>
