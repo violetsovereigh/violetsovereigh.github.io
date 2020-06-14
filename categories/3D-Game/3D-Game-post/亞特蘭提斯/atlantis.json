@@ -1,0 +1,16 @@
+[
+    {
+        "title":"亞特蘭提斯",
+        "banner":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis.jpg",
+        "image01":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis05.jpg",
+        "image02":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis02.jpg",
+        "image03":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis03.jpg",
+        "image04":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis04.jpg",
+        "image05":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031642/samples/game/Atlantis/atlantis07.jpg",
+        "image06":"https://res.cloudinary.com/violet-sovereigh/image/upload/v1592031643/samples/game/Atlantis/atlantis09.jpg",
+       
+        "tool":"3Ds Max, Photoshop, Unity",
+        "designconcept":"古老的亞特蘭提斯遺跡仍在海底等待人們的發現，無人踏足使它破碎而 美麗， 被礁石與珊瑚圍繞著，探索它，找出隱藏的寶藏。於兩日game jam中完成，我負責部分3D場景美術。",
+        "pass":"true"
+    }
+]
